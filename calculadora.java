@@ -1,14 +1,17 @@
 /**
  * calculadora
  */
-import javax.swing.JOptionPane;
-public class calculadora {
+import javax.swing.JOptionPane;// biblioteca para caixa de dialogo
+public class Calculadora {
 
     /**
      * @andresa.lidia
      */
     public static void main(String[] args) {
-        // caixa de dialogo para saber a operação a ser feita
+        /**caixa de dialogo da biblioteca JOptionPane para a entrada de dados. 
+        *o metodo aceita variaveis do tipo String.
+        *os dados recolhidos entrarão em um switch
+        */
         String escolha = JOptionPane.showInputDialog("ESCOLHA UMA OPÇÃO..."+
         "\n 1 - SOMA,"+
         "\n 2 - SUBTRAÇÃO,"+
@@ -21,7 +24,7 @@ public class calculadora {
         //caso para cada escolha do usuário
         switch (opcao){
             case 1:
-                String firstsoma  = JOptionPane.showInputDialog("Insira o primeiro número"); 
+                String firstsoma  = JOptionPane.showInputDialog("Insira o primeiro número"); //caixa de dialogo para entrada de dados.
                 String secondsoma  = JOptionPane.showInputDialog("Insira o segundo número");
             
                 int soma1 = Integer.parseInt(firstsoma);
@@ -31,6 +34,12 @@ public class calculadora {
         
                 JOptionPane.showMessageDialog(null,"A soma é: "+soma, "SOMA dos dois inteiros",JOptionPane.INFORMATION_MESSAGE);
                 break;
+                /**Moostra uma mensagem para o usuário, 
+                *o primeiro argumento diz onde a caixa será posicionada na hora que for exibida, null significa que será no meio;
+                *o segundo argumento é a mensagem exibida;
+                *O terceiro é o título da caixa de mensagem;
+                *e o último é o tipo de caixa de mensagem que será exibida.
+                 */
             case 2:
                 String firstsub  = JOptionPane.showInputDialog("Insira o primeiro número"); 
                 String secondsub  = JOptionPane.showInputDialog("Insira o segundo número");
