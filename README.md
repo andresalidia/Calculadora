@@ -20,6 +20,7 @@ Ao iniciar o programa, o usuário é apresentado com um menu de opções usando 
 - Subtração
 - Multiplicação
 - Divisão
+  
 ![image](https://github.com/andresalidia/Calculadora/assets/86450495/f551b697-170a-420e-90d1-2a54610faa96)
 
 ### 2. Switch Case para Executar Operações
