@@ -40,28 +40,25 @@ Depois de receber os números do usuário, o programa realiza os cálculos aprop
 - **Multiplicação**: `mult1 * mult2`
 - **Divisão**: `div1 / div2`
 
+Exemplo com subtração:
+
+![image](https://github.com/andresalidia/Calculadora/assets/86450495/6d919e5a-14ef-4f60-9c27-efda1672a267)
+
+![image](https://github.com/andresalidia/Calculadora/assets/86450495/426cedb8-9e6f-4c86-8dec-88978abe82f2)
+
+![image](https://github.com/andresalidia/Calculadora/assets/86450495/28d9ece6-cc4d-460d-a46a-a227210ea1d9)
+
 ### 5. Exibição do Resultado
 
 Após o cálculo, o resultado é exibido em uma caixa de mensagem usando `JOptionPane.showMessageDialog`.
+
+![image](https://github.com/andresalidia/Calculadora/assets/86450495/b839fdb3-0eb5-4f3e-b3aa-6f37ccbfe924)
 
 ### 6. Tratamento de Erros
 
 O programa inclui uma mensagem de aviso caso o usuário escolha uma opção inválida (opção não encontrada).
 
-## Como Executar
-
-Para executar o programa:
-
-1. Certifique-se de ter o ambiente de desenvolvimento Java configurado.
-2. Compile o arquivo `Calculadora.java`.
-3. Execute o arquivo compilado.
-
-Exemplo de comando para compilar e executar no terminal:
-
-```bash
-javac Calculadora.java
-java Calculadora
-```
+![image](https://github.com/andresalidia/Calculadora/assets/86450495/f1d37eac-2909-41e6-ae59-a4ffd321b416)
 
 ## Contribuições
 
